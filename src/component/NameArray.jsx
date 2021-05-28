@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import './Name.css'
+import './NameArray.css'
 
 const Name = ({data}) => {
     const className = data.sex === 'girl'? 'person girl' : 'person boy'

@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import './ClearList.css'
+import './Clear.css'
 
 const ClearList = ({content, onClick}) => {
     return (

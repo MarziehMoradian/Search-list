@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
-import Name from './component/Name'
-import NamesList from './component/NamesList';
+import NamesList from './component/Names';
 import PEOPLE from './data'
 import './App.css';
-import Search from './component/Search';
-import ClearList from './component/ClearList';
+import Search from './component/SearchList';
+import ClearList from './component/Clear';
 
 function App() {
   const [search, setSearch] = useState('')

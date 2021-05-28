@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import Name from './Name'
-import './NamesList.css'
+import Name from './NameArray'
+import './Names.css'
 
 
 const NamesList = ({datas, search}) => {
